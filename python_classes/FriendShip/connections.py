@@ -22,14 +22,6 @@ class SocialNetwork:
 
             else:
                 print(f'{key} is friends with {values_list[0]}')
-    
-    def highest_name_len(self):
-        highest_len = 0
-        for users in self.network:
-            if len(users) > highest_len:
-                highest_len = len(users)
-
-        return highest_len
 
     def get_unqiue_users(self):
         
